@@ -90,3 +90,12 @@ html {
         @apply bg-background text-foreground;
     }
 }
+
+
+.news-post .body p {
+    margin-bottom: 0.75rem;
+}
+.pagination .flex a:hover,
+.pagination .flex a.bg-white {
+    color: black;
+}

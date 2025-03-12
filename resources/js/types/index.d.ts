@@ -35,4 +35,24 @@ export interface User {
     updated_at: string;
 }
 
+export interface Post {
+    id: number;
+    user_id: number;
+    slug: string;
+    headline: string;
+    body: string;
+    is_published: boolean;
+    created_at: string;
+    updated_at: string;
+}
+
+export interface Comment {
+    id: number;
+    post_id: number;
+    username: string;
+    body: string;
+    created_at: string;
+    updated_at: string;
+}
+
 export type BreadcrumbItemType = BreadcrumbItem;
