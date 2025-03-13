@@ -11,7 +11,7 @@ defineProps<{
 </script>
 
 <template>
-    <NewsLayout title="Новость" description="Читайте последние новости из мира Laravel">
+    <NewsLayout title="Новости" description="Читайте последние новости из мира Laravel">
         <div v-for="post in posts.data" :key="post.id">
             <NewsPost :post="post"></NewsPost>
         </div>
