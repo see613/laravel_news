@@ -5,13 +5,6 @@ import NewsLayout from '@/layouts/NewsLayout.vue';
 import NewsPost from '@/components/NewsPost.vue';
 
 
-const breadcrumbItems: BreadcrumbItem[] = [
-    {
-        title: 'News',
-        href: '/news',
-    },
-];
-
 defineProps<{
     posts: Object;
 }>();
